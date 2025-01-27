@@ -44,6 +44,11 @@ let targets = #{
         rust_target: "thumbv7em-none-eabihf",
         probe_chip: "STM32743ZI"
     },
+    stm32f446ze: #{
+        arch: "arm",
+        rust_target: "thumbv7em-none-eabihf",
+        probe_chip: "STM32F446ZE"
+    },
 
     esp32c3: #{
         arch: "riscv",
